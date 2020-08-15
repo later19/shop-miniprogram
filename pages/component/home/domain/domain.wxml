@@ -1,0 +1,9 @@
+<!--pages/component/home/domain/domain.wxml-->
+<view class="domain">
+  <block class="block" wx:for="{{domainlist}}" wx:key="*this">
+      <view class="domain-item">
+        <image class="imgbor" style="width:100%;height: 100rpx;" src="{{item.src}}" mode='aspectFill'></image>
+        <text class="title">{{item.title}}</text>
+      </view>
+  </block>
+</view>

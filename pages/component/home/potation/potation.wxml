@@ -1,0 +1,19 @@
+<!--pages/component/potation.wxml-->
+<view class="potation">
+<view class="bgimg">
+</view>
+  <view class="page-body">
+    <view class="page-section page-section-spacing swiper">
+      <swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imglist}}" wx:key="*this">
+          <swiper-item>
+            <view class="swiper-item {{item}}">
+              <image style="width:100%" src="{{item}}" mode='aspectFill'></image>
+            </view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>  
+</view>

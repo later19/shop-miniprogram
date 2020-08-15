@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "banner":"../component/home/potation/potation",
+    "domain":"../component/home/domain/domain"
+  }
 }

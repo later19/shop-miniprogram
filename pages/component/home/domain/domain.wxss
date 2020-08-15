@@ -1,0 +1,19 @@
+/* pages/component/home/domain/domain.wxss */
+.domain{
+  margin: 20rpx 40rpx;
+}
+.block{
+  /* width: 20%; */
+}
+.domain-item{
+  width: 15%;
+  display: inline-block;
+  margin: 16rpx;
+  text-align: center;
+}
+.imgbor{
+  border-radius: 20rpx;
+}
+.title{
+  font-size: 24rpx;
+}
